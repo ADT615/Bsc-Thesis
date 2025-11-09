@@ -1,0 +1,6 @@
+solver_name,wall_time,success,error_message,num_time_points
+exact,0.03870034217834473,True,,20
+trotter1,45.26856875419617,True,,20
+trotter2,74.50505542755127,True,,20
+magnus,0.18512225151062012,True,,20
+vqa,0.11214041709899902,False,'ArrayBox' object has no attribute 'conj',20

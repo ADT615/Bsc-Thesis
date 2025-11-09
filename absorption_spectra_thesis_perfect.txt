@@ -1,0 +1,1 @@
+# Energy (eV)   Sigma_Exact (a.u.) Sigma_Compilation (a.u.)     Sigma_Trotter1 (a.u.)   Sigma_Trotter2 (a.u.)   Sigma_Magnus2 (a.u.)

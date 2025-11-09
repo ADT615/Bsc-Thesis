@@ -1,0 +1,9 @@
+{
+    "device": "lightning.qubit",
+    "num_qubits": 8,
+    "num_blocks": 16,
+    "constant": null,
+    "num_iter": 1024,
+    "random": true,
+    "small": null
+}

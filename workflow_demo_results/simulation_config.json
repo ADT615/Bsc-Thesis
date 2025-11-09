@@ -1,0 +1,23 @@
+{
+  "gamma": 0.25,
+  "e0": 0.01,
+  "atom_string": "H 0 0 0; H 0 0 0.735",
+  "basis": "sto3g",
+  "charge": 0,
+  "spin": 0,
+  "num_layers": 4,
+  "max_optimization_steps": 200,
+  "learning_rate": 0.01,
+  "error_threshold": 1e-06,
+  "time_start": 0.0,
+  "time_end": 50.0,
+  "num_time_points": 20,
+  "trotter_steps_per_au": 10,
+  "magnus_dt": 0.1,
+  "magnus_inner_integral_points": 50,
+  "ode_rtol": 1e-08,
+  "ode_atol": 1e-08,
+  "ode_method": "RK45",
+  "fft_damping_gamma": 0.001,
+  "timestamp": "2025-07-30T16:32:39.396711"
+}

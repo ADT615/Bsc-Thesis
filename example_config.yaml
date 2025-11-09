@@ -1,0 +1,36 @@
+# Example Configuration for Quantum Simulation
+# This file demonstrates how to configure quantum simulation parameters
+
+# Molecular system parameters
+atom_string: "H 0 0 0; H 0 0 0.735"  # H2 molecule at equilibrium distance
+basis: "sto3g"                        # Basis set
+charge: 0                             # Molecular charge
+spin: 0                               # Spin multiplicity
+
+# Electric field parameters
+e0: 0.01                              # Field strength (a.u.)
+gamma: 0.25                           # Pulse width parameter (a.u.)
+
+# Time evolution parameters  
+time_start: 0.0                       # Start time (a.u.)
+time_end: 100.0                       # End time (a.u.)
+num_time_points: 30                   # Number of time points
+
+# VQA parameters
+num_layers: 4                         # Number of VQA ansatz layers
+max_optimization_steps: 200           # Maximum VQA optimization steps
+learning_rate: 0.01                   # VQA learning rate
+error_threshold: 1.0e-6               # VQA convergence threshold
+
+# Solver parameters
+trotter_steps_per_au: 10              # Trotter steps per atomic unit time
+magnus_dt: 0.1                        # Magnus expansion time step
+magnus_inner_integral_points: 50      # Magnus inner integration points
+
+# ODE solver parameters
+ode_rtol: 1.0e-8                      # Relative tolerance
+ode_atol: 1.0e-8                      # Absolute tolerance
+ode_method: "RK45"                    # ODE integration method
+
+# Analysis parameters
+fft_damping_gamma: 0.001              # FFT damping parameter 

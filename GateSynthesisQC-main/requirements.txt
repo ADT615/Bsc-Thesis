@@ -1,0 +1,7 @@
+qiskit
+qiskit-nature
+pennylane
+pennylane-qiskit
+qiskit-algorithms
+pyscf
+pylatexenc

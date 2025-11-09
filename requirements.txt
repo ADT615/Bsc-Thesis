@@ -1,0 +1,27 @@
+# Core quantum computing libraries
+qiskit>=0.40.0
+qiskit-nature>=0.5.0
+qiskit-algorithms>=0.2.0
+pennylane>=0.30.0
+
+# Scientific computing
+numpy>=1.21.0
+scipy>=1.7.0
+matplotlib>=3.5.0
+
+# Chemistry and molecular simulation
+pyscf>=2.0.0
+
+# Optimization
+scikit-learn>=1.0.0
+
+# Utilities
+psutil>=5.8.0
+tqdm>=4.60.0
+
+# Development and testing (optional)
+jupyter>=1.0.0
+ipython>=7.0.0
+pytest>=6.0.0
+black>=21.0.0
+flake8>=3.9.0
